@@ -148,7 +148,6 @@ Example:
 
 ```c
 #include "libft.h"
-    free(str);
 #include <stdio.h>
 #include <stdlib.h>
 

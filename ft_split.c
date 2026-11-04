@@ -20,7 +20,7 @@ static char	**free_tab(char **tab, size_t j)
 	return (0);
 }
 
-static int	count_func(const char *s, char c)
+static size_t	count_func(const char *s, char c)
 {
 	size_t	count;
 	size_t	i;

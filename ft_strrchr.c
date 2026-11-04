@@ -23,12 +23,12 @@ char	*ft_strrchr(const char *s, int c)
 	{
 		i++;
 	}
-	if (s[i] == pc)
+	if ((unsigned char)s[i] == pc)
 		return ((char *)&s[i]);
-	while (i >= 0)
+	while (i > 0)
 	{
 		i--;
-		if (s[i] == pc)
+		if ((unsigned char)s[i] == pc)
 			return ((char *)&s[i]);
 	}
 	return (0);
